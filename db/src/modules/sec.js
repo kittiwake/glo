@@ -1,7 +1,8 @@
+import getData from "./getData";
 const sec = () => {
     const cartBtn = document.getElementById('cart');
 
-    console.log(cartBtn);
+    getData().then(data => console.log(data));
     
 }
 
