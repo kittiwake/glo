@@ -1,5 +1,9 @@
 import Cart from "./modules/cart";
-import sec from "./modules/sec";
+import catalog from "./modules/catalog";
+import load from "./modules/load";
+import search from "./modules/search";
 
 Cart();
-sec();
+load();
+search();
+catalog();
